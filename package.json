@@ -1,0 +1,38 @@
+{
+  "name": "ibra",
+  "version": "1.0.3",
+  "description": "Use markdown as an html templating engine.",
+  "license": "MIT",
+  "author": "Danny Navarro (dannynavarro.tech)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dannav/ibra.git"
+  },
+  "keywords": [
+    "ibra",
+    "markdown",
+    "template",
+    "html template engine",
+    "md",
+    "lodash templates"
+  ],
+  "bugs": {
+    "url": "https://github.com/dannav/ibra/issues"
+  },
+  "homepage": "https://github.com/dannav/ibra",
+  "main": "lib/ibra.js",
+  "scripts": {
+    "test": "mocha ./test/index.js"
+  },
+  "engines": {
+    "node": ">=7.7.2"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  },
+  "dependencies": {
+    "lodash.template": "^4.4.0",
+    "markdown-it": "^8.3.1"
+  }
+}
