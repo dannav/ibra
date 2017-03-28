@@ -32,7 +32,7 @@ const text = `# @{
 
 const data = {name: 'tom'}
 const ibra = require('ibra')
-const html = ibra(content, data)
+const html = ibra(text, data)
 
 /* 
   html becomes: 
